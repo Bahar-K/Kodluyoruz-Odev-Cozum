@@ -1,0 +1,88 @@
+PROJE 1
+
+[22,27,16,2,18,6] -> Insertion Sort
+
+1)++ Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+2)++ Big-O gösterimini yazınız.
+3)++ Time Complexity: Average case Aradığımız sayının :ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.
+4)++ Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
+5)++ [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
+
+
+
+1. Soru Çözüm
+
+[22,27,16,2,18,6]
+[22,27,16,2,18,6]
+[16,22,27,2,18,6]
+[2,16,22,27,18,6]
+[2,16,18,22,27,6]
+[2,6,16,18,22,27]
+
+2. Soru Çözüm
+
+Big-O gösterimi = O(n^2) 
+
+3. Soru Çözüm
+
+Worst case  : O(n^2)
+Average case: O(n^2)
+Best case   : O(n)
+
+4. Soru Çözüm ????
+Dizi sıralandıktan sonra 18 sayısı Average case kapsamına girer.
+
+5. Soru Çözüm
+
+[7,3,5,8,2,9,4,15,6]
+[3,7,5,8,2,9,4,15,6]
+[3,5,7,8,2,9,4,15,6]
+[3,5,7,8,2,9,4,15,6]
+[2,3,5,7,8,9,4,15,6]
+
+
+PROJE 2 
+MERGE SORT
+
+[16,21,11,8,12,22] -> Merge Sort
+
+1) Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+2) Big-O gösterimini yazınız.
+
+1. Soru Çözüm 
+
+[16,21,11,8,12,22]
+[16,21,11] 		 [8,12,22]
+[16] [21,11]	 [8] [12,22]
+[16] [21] [11] 	 [8] [12] [22]
+[16] [11,21] 	 [8] [12,22]
+[11,16,21] 		 [8,12,22]
+[8,11,12,16,21,22]
+
+
+2. Soru Çözüm
+O(n logn)
+
+
+PROJE 3
+BINARY SEARCH
+
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+1. Soru Çözüm
+
+root= 6
+root sağında: 7,8,9
+root solunda: 5,1,3,0,4,2 
+
+root'un sağ tarafı için: 8. 8'in sağında 9, solunda 7 bulunur.
+root'un sol tarafı için: 3. 3'ün sağı 5,4. Solu 1,0,2 
+3'ün sağının root'u için 5. 5'in solunda 4 vardır.
+3'ün solunun root'u için 1. 1'nin sağı 2. solu 0 dır. 
+
+
+
+
+
