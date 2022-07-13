@@ -7,6 +7,10 @@ BINARY SEARCH
 
 1. Soru Çözüm
 
+						6
+				3			       8
+			  1	       5 		    7	   9	    							9 	
+		     0    2	     4	
 root= 6
 root sağında: 7,8,9
 root solunda: 5,1,3,0,4,2 
@@ -15,8 +19,6 @@ root'un sağ tarafı için: 8. 8'in sağında 9, solunda 7 bulunur.
 root'un sol tarafı için: 3. 3'ün sağı 5,4. Solu 1,0,2 
 3'ün sağının root'u için 5. 5'in solunda 4 vardır.
 3'ün solunun root'u için 1. 1'nin sağı 2. solu 0 dır. 
-
-
 
 
 
