@@ -8,9 +8,9 @@ BINARY SEARCH
 1. Soru Çözüm
 
 						6
-				3			       8
-			  1	       5 		    7	   9	    								
-		     0    2	     4	
+				 3			       8
+			  1	        5 		    7	   9	    								
+		       0     2	      4	
 root= 6
 root sağında: 7,8,9
 root solunda: 5,1,3,0,4,2 
