@@ -9,7 +9,7 @@ BINARY SEARCH
 
 						6
 				3			       8
-			  1	       5 		    7	   9	    							9 	
+			  1	       5 		    7	   9	    								
 		     0    2	     4	
 root= 6
 root sağında: 7,8,9
