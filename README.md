@@ -1,4 +1,4 @@
 # Kodluyoruz Ödev Çözümleri
  Kodluyoruzda verilen video sonu ödevlerin çözümleri
 
-**Note: Dosya isimlendirilmesindeki sayılar ödev sırasını belirtmektedir.**
+**Note: Dosya isimlerindeki ilk sayılar ödev sırasını belirtmektedir.**
